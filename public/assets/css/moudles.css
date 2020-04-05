@@ -504,9 +504,15 @@ button,
             background-position: center center;
         }
 
-        #main > section.one {
-            background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+        #main > section.one #myVideo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 15px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+              
         }
 
         #main > section.two {
